@@ -1,0 +1,53 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Runtime data
+logs/
+*.log
+pids/
+*.pid
+*.seed
+
+# Environment files (keep secrets out of git)
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# PM2
+pm2.pid
+pm2.log
+
+# Testing
+coverage/
+*.lcov
+
+# Dependency directories
+/.pnp/
+.pnp.js
+
+# Lock files (optional to ignore depending on your team)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Editor directories and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Misc caches
+.cache/
+.parcel-cache/
+
+# Serverless / deployments
+/.serverless/
+.vercel/
+
